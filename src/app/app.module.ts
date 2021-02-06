@@ -8,9 +8,8 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 //modulos
 import { SharedModule } from './shared/shared.module';
 import { GifsModule } from './gifs/gifs.module';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-//spinner
-import { NgxSpinnerModule } from "ngx-spinner";
+
+
 
 
 
@@ -22,14 +21,11 @@ import { NgxSpinnerModule } from "ngx-spinner";
   ],
   imports: [
     BrowserModule,
-    BrowserAnimationsModule,
     HttpClientModule,
     NgbModule,
     SharedModule,
     GifsModule,
-    NgxSpinnerModule,
   ],
-  schemas: [CUSTOM_ELEMENTS_SCHEMA],
   providers: [],
   bootstrap: [AppComponent]
 })
